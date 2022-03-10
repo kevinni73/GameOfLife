@@ -13,8 +13,8 @@ struct Coords {
 		return (x == other.x && y == other.y);
 	}
 
-	int64_t x;
-	int64_t y;
+	int64_t x = 0;
+	int64_t y = 0;
 };
 
 namespace std {
